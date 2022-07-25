@@ -1,9 +1,6 @@
 import React from 'react';
 import {FormattedMessage} from 'react-intl';
 
-import CanvasIconURL from './canvas/icon.png'
-import CanvasInsetIconURL from './pen/pen-small.svg'
-
 import musicIconURL from './music/music.png';
 import musicInsetIconURL from './music/music-small.svg';
 
@@ -43,16 +40,25 @@ import boostInsetIconURL from './boost/boost-small.svg';
 import boostConnectionIconURL from './boost/boost-illustration.svg';
 import boostConnectionSmallIconURL from './boost/boost-small.svg';
 import boostConnectionTipIconURL from './boost/boost-button-illustration.svg';
-import HttpIconURL from './http/icon.png';
-import HttpInsetIconURL from './http/inset.svg';
-
-import StringIconURL from './string/icon.png';
-import StringInsetIconURL from './string/icon-small.svg'
 
 import gdxforIconURL from './gdxfor/gdxfor.png';
 import gdxforInsetIconURL from './gdxfor/gdxfor-small.svg';
 import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
 import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
+
+// Add by UniScratch Team
+
+import CanvasIconURL from './canvas/icon.png';
+import CanvasInsetIconURL from './pen/pen-small.svg';
+
+import CryptoIconURL from './crypto/icon.png';
+import CryptoInsetIconURL from './crypto/crypto.svg';
+
+import HttpIconURL from './http/icon.png';
+import HttpInsetIconURL from './http/inset.svg';
+
+import StringIconURL from './string/icon.png';
+import StringInsetIconURL from './string/icon-small.svg';
 
 export default [
     {
@@ -60,7 +66,7 @@ export default [
             <FormattedMessage
                 defaultMessage="Canvas"
                 description="Name of The Canvas Extension."
-                id="Canvas"
+                id="gui.extension.canvas.name"
             />
         ),
         extensionId: 'canvas',
@@ -69,53 +75,72 @@ export default [
         insetIconURL: CanvasInsetIconURL,
         description: (
             <FormattedMessage
-                defaultMessage="高级画笔扩展,代码来自GitBlock。"
+                defaultMessage="高级画笔扩展。"
                 description="Description for the Canvas Extension"
-                id="Canvas.description"
+                id="gui.extension.canvas.description"
             />
         ),
-        featured: true,
-        internetConnectionRequired: false
+        featured: true
     },
     {
         name: (
             <FormattedMessage
                 defaultMessage="字符串扩展"
                 description="Name of The String Extension."
-                id="String"
+                id="gui.extension.string.name"
             />
         ),
-        extensionId: 'StringUnit',
-        collaborator: '水极',
+        extensionId: 'string',
+        collaborator: 'UniScratch Team',
         iconURL: StringIconURL,
         insetIconURL: StringInsetIconURL,
         description: (
             <FormattedMessage
                 defaultMessage="处理字符串"
                 description="Description for the String Extension"
-                id="String.description"
+                id="gui.extension.string.description"
             />
         ),
-        featured: true,
-        internetConnectionRequired: false
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Crypto"
+                description="Name of The Crypto Extension."
+                id="gui.extension.crypto.name"
+            />
+        ),
+        extensionId: 'crypto',
+        collaborator: 'UniScratch Team',
+        iconURL: CryptoIconURL,
+        insetIconURL: CryptoInsetIconURL,
+        description: (
+            <FormattedMessage
+                defaultMessage="标准和安全加密算法"
+                description="Description for the Crypto Extension"
+                id="gui.extension.crypto.description"
+            />
+        ),
+        featured: true
     },
     {
         name: (
             <FormattedMessage
                 defaultMessage="Http模块"
                 description="Name of The Http Extension."
-                id="HttpUnit"
+                id="gui.extension.httpUnit.name"
             />
         ),
-        extensionId: 'HttpUnit',
-        collaborator: '水极',
+        extensionId: 'httpUnit',
+        collaborator: 'UniScratch Team',
         iconURL: HttpIconURL,
         insetIconURL: HttpInsetIconURL,
         description: (
             <FormattedMessage
-                defaultMessage="允许您发送Http请求"
+                defaultMessage="连接互联网"
                 description="Description for the Http Extension"
-                id="HttpUnit.description"
+                id="gui.extension.httpUnit.description"
             />
         ),
         featured: true,
