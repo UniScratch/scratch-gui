@@ -65,12 +65,12 @@ export default [
         name: (
             <FormattedMessage
                 defaultMessage="Canvas"
-                description="Name of The Canvas Extension."
+                description="Name of the Canvas Extension."
                 id="gui.extension.canvas.name"
             />
         ),
         extensionId: 'canvas',
-        collaborator: 'GitBlock',
+        collaborator: '稽木世界',
         iconURL: CanvasIconURL,
         insetIconURL: CanvasInsetIconURL,
         description: (
@@ -85,18 +85,17 @@ export default [
     {
         name: (
             <FormattedMessage
-                defaultMessage="字符串扩展"
-                description="Name of The String Extension."
+                defaultMessage="字符串处理"
+                description="Name of the String Extension."
                 id="gui.extension.string.name"
             />
         ),
         extensionId: 'string',
-        collaborator: 'UniScratch Team',
         iconURL: StringIconURL,
         insetIconURL: StringInsetIconURL,
         description: (
             <FormattedMessage
-                defaultMessage="处理字符串"
+                defaultMessage="处理字符串。"
                 description="Description for the String Extension"
                 id="gui.extension.string.description"
             />
@@ -107,17 +106,16 @@ export default [
         name: (
             <FormattedMessage
                 defaultMessage="Crypto"
-                description="Name of The Crypto Extension."
+                description="Name of the Crypto Extension."
                 id="gui.extension.crypto.name"
             />
         ),
         extensionId: 'crypto',
-        collaborator: 'UniScratch Team',
         iconURL: CryptoIconURL,
         insetIconURL: CryptoInsetIconURL,
         description: (
             <FormattedMessage
-                defaultMessage="标准和安全加密算法"
+                defaultMessage="标准和安全加密算法。"
                 description="Description for the Crypto Extension"
                 id="gui.extension.crypto.description"
             />
@@ -127,19 +125,18 @@ export default [
     {
         name: (
             <FormattedMessage
-                defaultMessage="Http模块"
-                description="Name of The Http Extension."
+                defaultMessage="HTTP"
+                description="Name of the HTTP Extension."
                 id="gui.extension.httpUnit.name"
             />
         ),
         extensionId: 'httpUnit',
-        collaborator: 'UniScratch Team',
         iconURL: HttpIconURL,
         insetIconURL: HttpInsetIconURL,
         description: (
             <FormattedMessage
-                defaultMessage="连接互联网"
-                description="Description for the Http Extension"
+                defaultMessage="连接互联网。"
+                description="Description for the HTTP Extension"
                 id="gui.extension.httpUnit.description"
             />
         ),
@@ -155,6 +152,7 @@ export default [
             />
         ),
         extensionId: 'music',
+        collaborator: 'Scratch Team',
         iconURL: musicIconURL,
         insetIconURL: musicInsetIconURL,
         description: (
@@ -175,6 +173,7 @@ export default [
             />
         ),
         extensionId: 'pen',
+        collaborator: 'Scratch Team',
         iconURL: penIconURL,
         insetIconURL: penInsetIconURL,
         description: (
@@ -195,6 +194,7 @@ export default [
             />
         ),
         extensionId: 'videoSensing',
+        collaborator: 'Scratch Team',
         iconURL: videoSensingIconURL,
         insetIconURL: videoSensingInsetIconURL,
         description: (
@@ -215,7 +215,7 @@ export default [
             />
         ),
         extensionId: 'text2speech',
-        collaborator: 'Amazon Web Services',
+        collaborator: 'Amazon Web Services, Scratch Team',
         iconURL: text2speechIconURL,
         insetIconURL: text2speechInsetIconURL,
         description: (
@@ -237,7 +237,7 @@ export default [
             />
         ),
         extensionId: 'translate',
-        collaborator: 'Google',
+        collaborator: 'Google, Scratch Team',
         iconURL: translateIconURL,
         insetIconURL: translateInsetIconURL,
         description: (
@@ -250,11 +250,11 @@ export default [
         featured: true,
         internetConnectionRequired: true
     },
-    
+
     {
         name: 'Makey Makey',
         extensionId: 'makeymakey',
-        collaborator: 'JoyLabz',
+        collaborator: 'JoyLabz, Scratch Team',
         iconURL: makeymakeyIconURL,
         insetIconURL: makeymakeyInsetIconURL,
         description: (
@@ -269,7 +269,7 @@ export default [
     {
         name: 'micro:bit',
         extensionId: 'microbit',
-        collaborator: 'micro:bit',
+        collaborator: 'micro:bit, Scratch Team',
         iconURL: microbitIconURL,
         insetIconURL: microbitInsetIconURL,
         description: (
@@ -299,7 +299,7 @@ export default [
     {
         name: 'LEGO MINDSTORMS EV3',
         extensionId: 'ev3',
-        collaborator: 'LEGO',
+        collaborator: 'LEGO, Scratch Team',
         iconURL: ev3IconURL,
         insetIconURL: ev3InsetIconURL,
         description: (
@@ -329,7 +329,7 @@ export default [
     {
         name: 'LEGO BOOST',
         extensionId: 'boost',
-        collaborator: 'LEGO',
+        collaborator: 'LEGO, Scratch Team',
         iconURL: boostIconURL,
         insetIconURL: boostInsetIconURL,
         description: (
@@ -360,7 +360,7 @@ export default [
     {
         name: 'LEGO Education WeDo 2.0',
         extensionId: 'wedo2',
-        collaborator: 'LEGO',
+        collaborator: 'LEGO, Scratch Team',
         iconURL: wedo2IconURL,
         insetIconURL: wedo2InsetIconURL,
         description: (
@@ -391,7 +391,7 @@ export default [
     {
         name: 'Go Direct Force & Acceleration',
         extensionId: 'gdxfor',
-        collaborator: 'Vernier',
+        collaborator: 'Vernier, Scratch Team',
         iconURL: gdxforIconURL,
         insetIconURL: gdxforInsetIconURL,
         description: (
